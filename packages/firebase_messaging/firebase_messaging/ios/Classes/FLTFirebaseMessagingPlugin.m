@@ -485,6 +485,7 @@ NSString *const kMessagingPresentationOptionsUserDefaults =
                         }
                       }];
     } else {
+      [_channel invokeMethod:@"Messaging#onMessage" arguments:notificationDict];
       completionHandler(UIBackgroundFetchResultNoData);
     }
 
