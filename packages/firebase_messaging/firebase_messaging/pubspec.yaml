@@ -4,7 +4,7 @@ description: Flutter plugin for Firebase Cloud Messaging, a cross-platform
 
 repository: https://github.com/FirebaseExtended/flutterfire/tree/master/packages/firebase_messaging/firebase_messaging
 homepage: https://firebase.flutter.dev/docs/messaging/overview
-version: 11.2.14
+version: 11.2.15
 
 false_secrets:
   - example/**
